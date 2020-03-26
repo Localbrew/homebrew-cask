@@ -1,9 +1,10 @@
 cask "adguard-for-safari" do
   name "AdGuardForSafari"
 
-  version "1.6.4"
-  sha256 "15d317a17e22b50cbd256c95158261752605caaeed6578f36f6071b4c8301185"
-  url "https://static.adguard.com/safari/release/AdGuard_Safari.app.zip"
+  version "1.7.3-beta"
+  sha256 "dfcf3a3030c2badd12661500a2433b4fba38a49603914ef20a3ad4ab5364d0c4"
+  url "https://static.adguard.com/safari/beta/AdGuard_Safari_Beta.app.zip"
+  # url "https://static.adguard.com/safari/release/AdGuard_Safari.app.zip"
 
   appcast "https://github.com/AdguardTeam/AdGuardForSafari/releases.atom"
   homepage "https://github.com/AdguardTeam/AdGuardForSafari"
